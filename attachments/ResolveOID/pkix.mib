@@ -1,0 +1,25 @@
+
+
+mechanisms IDENTIFIER ::= { security 5 }
+pkix OBJECT IDENTIFIER ::= { mechanisms 7 }
+id-pe OBJECT IDENTIFIER ::= { pkix privateExtension(1)}
+
+id-pe-ac-auditIdentity       OBJECT IDENTIFIER ::= { id-pe 4 }
+id-pe-aaControls             OBJECT IDENTIFIER ::= { id-pe 6 }
+id-pe-ac-proxying            OBJECT IDENTIFIER ::= { id-pe 10 }
+id-ce-targetInformation      OBJECT IDENTIFIER ::= { id-ce 55 }
+
+id-aca                       OBJECT IDENTIFIER ::= { id-pkix 10 }
+
+id-aca-authenticationInfo    OBJECT IDENTIFIER ::= { id-aca 1 }
+id-aca-accessIdentity        OBJECT IDENTIFIER ::= { id-aca 2 }
+id-aca-chargingIdentity      OBJECT IDENTIFIER ::= { id-aca 3 }
+id-aca-group                 OBJECT IDENTIFIER ::= { id-aca 4 }
+-- { id-aca 5 } is reserved
+id-aca-encAttrs              OBJECT IDENTIFIER ::= { id-aca 6 }
+
+id-at-role                   OBJECT IDENTIFIER ::= { id-at 72}
+id-at-clearance              OBJECT IDENTIFIER ::=
+                  { joint-iso-ccitt(2) ds(5) module(1)
+                    selected-attribute-types(5) clearance (55) }
+
