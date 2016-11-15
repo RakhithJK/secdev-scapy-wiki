@@ -14,8 +14,7 @@ Scapy, but were nice to have:
 - [LLDP](http://en.wikipedia.org/wiki/Link_Layer_Discovery_Protocol):
     Link Layer Discovery
     Protocol. ([Wireshark](http://wiki.wireshark.org/LinkLayerDiscoveryProtocol))
--
-    [STUN](http://en.wikipedia.org/wiki/Simple_traversal_of_UDP_over_NATs):
+- [STUN](http://en.wikipedia.org/wiki/Simple_traversal_of_UDP_over_NATs):
     Simple Traversal of UDP Through Network Address
     Translators. ([RFC 3489](http://www.faqs.org/rfcs/rfc3489.html))
 
