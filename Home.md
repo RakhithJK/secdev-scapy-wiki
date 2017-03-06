@@ -19,11 +19,3 @@ git clone https://github.com/secdev/scapy
 ```bash
 git clone ssh://git@github.com/secdev/scapy
 ```
-
-### Get executable (yolo)
-
-```bash
-wget -O scapy.zip scapy.net
-chmod +x scapy.zip
-./scapy.zip
-```
