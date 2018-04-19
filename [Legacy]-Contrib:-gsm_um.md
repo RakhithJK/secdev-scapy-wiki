@@ -1,7 +1,8 @@
-## GSM_UM was a former contribution module of scapy.
+## GSM_UM was a former contribution module of Scapy
+
 It was introduced in [this commit](https://github.com/secdev/scapy/commit/0816058268b2a0e62165bae81a4a1096d8a33dc6#diff-4657724bd0bfa6f4e3950adcfc0f7d12).
 
-However, due to the poor quality of the code (the module is partially auto-generated), to the giant size of the file but also because the file was missing tests, and the author was unreachable, it has been removed from scapy's newer versions.
+However, due to the giant size of the file, the missing tests, and the fact that the original author was unreachable, it has been removed from Scapy v2.4.1.
 
 This page contains the legacy code - an automatically updated and fixed version - of the module before it was removed, but also a copy of its documentation, before the website of the author was shut down.
 
