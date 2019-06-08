@@ -1,6 +1,8 @@
 Scapy sniff() patch to be able to stop the sniffer in a programmatic way
 ========================================================================
 
+# Deprecated in favor of https://github.com/secdev/scapy/pull/1999
+
 `sniff()` function is `sendrecv.py` now takes 2 more arguments:
 `stopperTimeout` and `stopper`, so every "`stopperTimeout` sec",
 `stopper()` is called and `sniff` is stopped if `stopper()` returns
